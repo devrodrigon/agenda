@@ -6,7 +6,7 @@ import { loginRoutes } from './login.routes';
 const appRoutes = (app: Express) => {
   app.use('/customers', customersRoutes());
   app.use('/contacts', contactsRoutes());
-  app.use('/login', loginRoutes());
+  app.use('/', loginRoutes());
 };
 
 export default appRoutes;
