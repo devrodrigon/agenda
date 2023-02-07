@@ -1,7 +1,7 @@
-import { useState } from 'react';
+import MainRoutes from './routes';
 
 function App() {
-  return <div>Hello</div>;
+  return <MainRoutes />;
 }
 
 export default App;
